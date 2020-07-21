@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+/*font-family: 'Titillium Web', sans-serif;*/
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #010626;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+* {margin:0; padding:0}
+
+img {
+    display: block;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    background: rgba(255, 255, 255, 0.2);
+}
+h1 {
+    padding-bottom: 3vh;
+}
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+p {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+label {
+    color: white;
+    padding: 0 8px;
+}
+#container {
+    width: 30%;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+/*
+
+/*Large Desktop*
+@media (min-width:1200px) {
+    
+}
+/*Normal Desktop*
+@media (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*small desktop*
+@media (min-width:980px) and (max-width:1023px) {
+    
+}
+/*For tablet *
+@media (min-width:768px) and (max-width:979px)  {
+    
+}
+/*For Mobile landscape *
+@media (min-width:480px) and (max-width:767px)  {
+    
+}
+/*For Mobile  *
+@media (min-width:320px) and (max-width:479px)  {
+}
